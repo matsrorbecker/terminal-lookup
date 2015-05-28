@@ -1,7 +1,13 @@
 {
   "name": "terminal-lookup",
   "version": "0.0.1",
-  "description": "",
+  "description": "A script that lets you search Wikipedia from your terminal.",
+  "keywords": [
+    "wikipedia",
+    "search",
+    "command-line",
+    "terminal"
+  ],
   "main": "index.js",
   "bin": {
     "tlookup": "./index.js"
@@ -14,5 +20,9 @@
   "dependencies": {
     "minimist": "^1.1.1",
     "request": "^2.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matsrorbecker/terminal-lookup"
   }
 }
