@@ -45,7 +45,7 @@ var printError = function(message) {
 var printResults = function(results) {
   console.log('\nResults for \'' + searchTerm + '\':\n');
   for (var i = 0; i < results.length; i++) {
-    if (results[i].toLowerCase().indexOf(searchTerm) != -1)
+    if (results[i].toLowerCase().indexOf(searchTerm.toLowerCase()) != -1)
       console.log(results[i] + '\n');    
   }
 };
