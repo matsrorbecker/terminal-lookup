@@ -33,7 +33,7 @@ var options = {
   url: url,
   qs: queryObject,
   headers: {
-    'User-Agent': 'terminal-lookup v0.0.1 (mats@rorbecker.com)'
+    'User-Agent': 'terminal-lookup v0.0.1 (https://github.com/matsrorbecker/terminal-lookup, mats@rorbecker.com)'
   }
 };
 
